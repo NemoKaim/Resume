@@ -1,16 +1,16 @@
 const translations = {
     ru: {
         name: "Ларин Никита",
-        position: "C# / UNITY РАЗРАБОТЧИК",
+        position: "C# / C++ РАЗРАБОТЧИК",
         location: "Алматы, Казахстан",
         sections: {
             about: {
                 title: "О СЕБЕ",
-                text: "C# разработчик с опытом создания коммерческих проектов: игр для PC/Steam и веб-приложений на .NET/Blazor. Разрабатывал полный цикл от прототипа до релиза, включая публикацию на платформах Steam и мобильных магазинах. Владею серверной логикой, чистой архитектурой и интеграцией баз данных. Работаю быстро, умею держать сроки и эффективно коммуницировать с заказчиками."
+                text: "Разработчик на C# и C++ с опытом создания коммерческих проектов: игр для PC/Steam на Unity и веб-приложений на .NET/Blazor. Разрабатывал полный цикл от прототипа до релиза, включая публикацию на платформах Steam и мобильных магазинах. Параллельно пишу собственный игровой движок на C++ и Vulkan: рендер, свой скриптовый язык с байткодом и VM, система рефлексии типов. Владею серверной логикой, чистой архитектурой и интеграцией баз данных. Работаю быстро, умею держать сроки и эффективно коммуницировать с заказчиками."
             },
             career: {
                 title: "КАРЬЕРНЫЕ ЦЕЛИ",
-                text: "Ищу позицию разработчика, где смогу применить навыки в создании и оптимизации программного обеспечения, а также продолжить профессиональный рост в разработке игр или веб-приложений с использованием C#, Unity и ASP.NET Core."
+                text: "Ищу позицию разработчика, где смогу применить навыки в создании и оптимизации программного обеспечения, а также продолжить профессиональный рост в разработке игр, движков или веб-приложений с использованием C#, C++, Unity и ASP.NET Core."
             },
             experience: {
                 title: "ОПЫТ РАБОТЫ",
@@ -31,8 +31,25 @@ const translations = {
                         links: ["https://www.threea.kz/"]
                     },
                     {
+                        title: "Разработчик игрового движка (C++ / Vulkan)",
+                        date: "2025 - настоящее время",
+                        company: "AetherEngine - личный проект",
+                        description: "Собственный игровой движок на C++ с рендером на Vulkan: редактор, рантайм-плеер, свой скриптовый язык и система рефлексии.",
+                        responsibilitiesTitle: "Что реализовано:",
+                        responsibilities: [
+                            "Рендер на Vulkan: настраиваемый пайплайн проходов, PBR-освещение, теневые карты, IBL и skybox, пост-эффекты",
+                            "Свой скриптовый язык AetherScript: лексер, парсер, семантический анализ, компиляция в байткод и виртуальная машина",
+                            "Система рефлексии и сериализации типов, редактор сцен, undo/redo, работа с ассетами",
+                            "Аудиодвижок с миксером, шинами и DSP, бэкенды WASAPI и CoreAudio",
+                            "Физика на базе Jolt Physics, кроссплатформенный слой окон и ввода (Win32 / Cocoa)",
+                            "Сборка на CMake, кодогенерация на Python, отдельный рантайм для сборки готовых игр"
+                        ],
+                        linksTitle: "Ссылки:",
+                        links: ["https://github.com/NemoKaim/AetherEngine"]
+                    },
+                    {
                         title: "Unity/C# разработчик",
-                        date: "07-2022 – настоящее время",
+                        date: "07-2022 - настоящее время",
                         company: "Инди-разработка (Steam-проекты)",
                         description: "Разработка собственных игр для PC и публикация на Steam.",
                         responsibilitiesTitle: "Обязанности:",
@@ -55,13 +72,13 @@ const translations = {
                 items: [
                     {
                         degree: "Разработчик программного обеспечения",
-                        date: "09-2022 – 06-2025",
+                        date: "09-2022 - 06-2025",
                         institution: "ЦАТЭК (Колледж Алматы)",
                         details: ["Казахстан", "(GPA) 3.6. Красный диплом"]
                     },
                     {
                         degree: "Информационные Системы",
-                        date: "09-2025 – настоящее время",
+                        date: "09-2025 - настоящее время",
                         institution: "Туран Университет Алматы",
                         details: ["Казахстан"]
                     }
@@ -77,7 +94,7 @@ const translations = {
                 title: "НАВЫКИ",
                 technical: {
                     subtitle: "Технические навыки",
-                    list: "• .NET Core • SQL • C# • Unity • ASP.NET • MySQL • Blazor • HTML • CSS • JavaScript • Git • GitHub"
+                    list: "• C# • .NET Core • ASP.NET • Blazor • Unity • C++ • Vulkan • CMake • SQL • MySQL • HTML • CSS • JavaScript • Git • GitHub"
                 },
                 soft: {
                     subtitle: "Софт навыки",
@@ -95,16 +112,16 @@ const translations = {
     },
     en: {
         name: "Nikita Larin",
-        position: "C# / UNITY DEVELOPER",
+        position: "C# / C++ DEVELOPER",
         location: "Almaty, Kazakhstan",
         sections: {
             about: {
                 title: "ABOUT ME",
-                text: "C# developer with experience in creating commercial projects: PC/Steam games and .NET/Blazor web applications. Developed full cycle from prototype to release, including publishing on Steam platforms and mobile stores. Proficient in server logic, clean architecture and database integration. Work quickly, meet deadlines and communicate effectively with clients."
+                text: "C# and C++ developer with experience in commercial projects: PC/Steam games in Unity and .NET/Blazor web applications. Developed full cycle from prototype to release, including publishing on Steam and mobile stores. In parallel I am building my own game engine in C++ and Vulkan: renderer, custom scripting language with bytecode and a VM, type reflection system. Proficient in server logic, clean architecture and database integration. Work quickly, meet deadlines and communicate effectively with clients."
             },
             career: {
                 title: "CAREER GOALS",
-                text: "Looking for a developer position where I can apply my skills in creating and optimizing software, as well as continue professional growth in game or web application development using C#, Unity and ASP.NET Core."
+                text: "Looking for a developer position where I can apply my skills in creating and optimizing software, as well as continue professional growth in game, engine or web application development using C#, C++, Unity and ASP.NET Core."
             },
             experience: {
                 title: "WORK EXPERIENCE",
@@ -125,8 +142,25 @@ const translations = {
                         links: ["https://www.threea.kz/"]
                     },
                     {
+                        title: "Game Engine Developer (C++ / Vulkan)",
+                        date: "2025 - present",
+                        company: "AetherEngine - personal project",
+                        description: "Own game engine written in C++ with a Vulkan renderer: editor, runtime player, custom scripting language and reflection system.",
+                        responsibilitiesTitle: "Implemented:",
+                        responsibilities: [
+                            "Vulkan renderer: configurable render pass pipeline, PBR lighting, shadow maps, IBL and skybox, post-processing effects",
+                            "Custom scripting language AetherScript: lexer, parser, semantic analysis, bytecode compilation and virtual machine",
+                            "Type reflection and serialization system, scene editor, undo/redo, asset pipeline",
+                            "Audio engine with mixer, buses and DSP, WASAPI and CoreAudio backends",
+                            "Physics based on Jolt Physics, cross-platform window and input layer (Win32 / Cocoa)",
+                            "CMake build system, Python code generation, separate runtime for shipping built games"
+                        ],
+                        linksTitle: "Links:",
+                        links: ["https://github.com/NemoKaim/AetherEngine"]
+                    },
+                    {
                         title: "Unity/C# Developer",
-                        date: "07-2022 – present",
+                        date: "07-2022 - present",
                         company: "Indie Development (Steam Projects)",
                         description: "Development of own games for PC and publishing on Steam.",
                         responsibilitiesTitle: "Responsibilities:",
@@ -149,13 +183,13 @@ const translations = {
                 items: [
                     {
                         degree: "Software Developer",
-                        date: "09-2022 – 06-2025",
+                        date: "09-2022 - 06-2025",
                         institution: "CATEC (Almaty College)",
                         details: ["Kazakhstan", "(GPA) 3.6. Red Diploma"]
                     },
                     {
                         degree: "Information Systems",
-                        date: "09-2025 – present",
+                        date: "09-2025 - present",
                         institution: "Turan University Almaty",
                         details: ["Kazakhstan"]
                     }
@@ -171,7 +205,7 @@ const translations = {
                 title: "SKILLS",
                 technical: {
                     subtitle: "Technical Skills",
-                    list: "• .NET Core • SQL • C# • Unity • ASP.NET • MySQL • Blazor • HTML • CSS • JavaScript • Git • GitHub"
+                    list: "• C# • .NET Core • ASP.NET • Blazor • Unity • C++ • Vulkan • CMake • SQL • MySQL • HTML • CSS • JavaScript • Git • GitHub"
                 },
                 soft: {
                     subtitle: "Soft Skills",
@@ -206,7 +240,15 @@ function updateContent(lang) {
     document.getElementById('name').textContent = data.name;
     document.getElementById('position').textContent = data.position;
     document.getElementById('location').textContent = data.location;
-    
+
+    const navResume = document.getElementById('nav-resume');
+    const navPortfolio = document.getElementById('nav-portfolio');
+    if (navResume) navResume.textContent = lang === 'en' ? 'Resume' : 'Резюме';
+    if (navPortfolio) {
+        navPortfolio.textContent = lang === 'en' ? 'Portfolio' : 'Портфолио';
+        navPortfolio.href = 'portfolio.html#' + lang;
+    }
+
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.classList.remove('active');
         if (btn.dataset.lang === lang) {
@@ -240,6 +282,7 @@ function updateContent(lang) {
                     <ul class="responsibilities">
                         ${job.responsibilities.map(resp => `<li>${resp}</li>`).join('')}
                     </ul>
+                    ${job.links && job.links.length ? `
                     <div class="links-section">
                         <div class="links-title">${job.linksTitle}</div>
                         <ul>
@@ -251,7 +294,7 @@ function updateContent(lang) {
                                 }
                             }).join('')}
                         </ul>
-                    </div>
+                    </div>` : ''}
                 </div>
             `).join('')}
         </section>
