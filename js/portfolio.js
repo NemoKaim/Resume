@@ -6,7 +6,7 @@ const portfolio = {
         navPortfolio: "Портфолио",
         intro: {
             title: "О ПОРТФОЛИО",
-            text: "Здесь собраны проекты, которые я довёл до рабочего состояния: игры, выпущенные в Steam, коммерческое веб-приложение и собственный игровой движок. По каждому проекту указано, что именно делал я и на чём."
+            text: "Здесь собраны мои проекты: игры в Steam (выпущенные и готовящаяся к релизу PersonaNet), коммерческое веб-приложение и собственный игровой движок. По каждому проекту указано, что именно делал я и на чём."
         },
         stackTitle: "Стек:",
         roleTitle: "Роль:",
@@ -24,10 +24,11 @@ const portfolio = {
                         status: "В активной разработке",
                         role: "Единственный разработчик",
                         stack: "C++, Vulkan, CMake, Jolt Physics, Assimp, FreeType, Python (кодогенерация)",
-                        description: "Движок с редактором сцен и отдельным рантаймом для сборки готовых игр. Помимо графики включает свой скриптовый язык, систему рефлексии типов, аудиодвижок и физику.",
+                        description: "Движок с редактором сцен и отдельным рантаймом для сборки готовых игр. Помимо графики включает свой скриптовый язык с визуальными нодами, систему рефлексии типов, аудиодвижок и физику.",
                         details: [
                             "Рендер на Vulkan: настраиваемый пайплайн проходов (RenderPipeline / RendererFeature), PBR-освещение, теневые карты для направленного света, IBL и skybox из HDR-карт, пост-эффекты",
                             "Скриптовый язык AetherScript: лексер, парсер, семантический анализ, компиляция в байткод, верификатор байткода, дизассемблер и виртуальная машина",
+                            "Визуальное программирование на нодах: скрипт можно писать кодом или собирать графом нод и переключаться между представлениями в любой момент",
                             "Система рефлексии типов (TypeDB, Variant, PropertyInfo) - на её основе работают инспектор в редакторе и сериализация сцен",
                             "Редактор: работа со сценами, ассетами, гизмо, undo/redo, IPC между редактором и рантаймом",
                             "Аудиодвижок: микшер, шины, DSP, 3D-звук; бэкенды WASAPI (Windows) и CoreAudio (macOS)",
@@ -44,6 +45,24 @@ const portfolio = {
             {
                 title: "ИГРЫ (STEAM)",
                 projects: [
+                    {
+                        name: "PersonaNet",
+                        tagline: "3D-хоррор в духе тамагочи, страница открыта в Steam",
+                        period: "2025 - настоящее время",
+                        status: "В разработке, скоро в Steam (можно добавить в список желаемого)",
+                        role: "Разработчик, геймдизайнер и автор сюжета",
+                        stack: "Unity, C#, Steamworks SDK",
+                        description: "Игра, стилизованная под «потерянную» игру 2000-х: игрок заботится о жителях маленькой деревни, а со временем привычный мир начинает ломаться и превращается в психологический хоррор.",
+                        details: [
+                            "Геймдизайн и сюжет: дизайн-документы по лору, персонажам и геймплейным циклам",
+                            "Шесть жителей деревни, у каждого своя мини-игра и «искажённая» версия во втором цикле",
+                            "Стилизация под ретро-консоль: запуск через меню в духе PS2, глитч-эффекты и сломанные сцены",
+                            "Подготовка и публикация страницы в Steam"
+                        ],
+                        links: [
+                            {text: "Страница в Steam", url: "https://store.steampowered.com/app/4704890/PersonaNet/"}
+                        ]
+                    },
                     {
                         name: "Lobotomy",
                         tagline: "Игра для PC, издана в Steam",
@@ -115,7 +134,7 @@ const portfolio = {
         navPortfolio: "Portfolio",
         intro: {
             title: "ABOUT THIS PAGE",
-            text: "Projects I have taken to a working state: games shipped on Steam, a commercial web application and my own game engine. For each project I list what exactly I built and with what."
+            text: "My projects: games on Steam (shipped titles and the upcoming PersonaNet), a commercial web application and my own game engine. For each project I list what exactly I built and with what."
         },
         stackTitle: "Stack:",
         roleTitle: "Role:",
@@ -133,10 +152,11 @@ const portfolio = {
                         status: "In active development",
                         role: "Sole developer",
                         stack: "C++, Vulkan, CMake, Jolt Physics, Assimp, FreeType, Python (code generation)",
-                        description: "An engine with a scene editor and a separate runtime for shipping built games. Besides graphics it includes a custom scripting language, a type reflection system, an audio engine and physics.",
+                        description: "An engine with a scene editor and a separate runtime for shipping built games. Besides graphics it includes a custom scripting language with visual nodes, a type reflection system, an audio engine and physics.",
                         details: [
                             "Vulkan renderer: configurable render pass pipeline (RenderPipeline / RendererFeature), PBR lighting, directional shadow maps, IBL and skybox from HDR maps, post-processing effects",
                             "AetherScript scripting language: lexer, parser, semantic analysis, bytecode compilation, bytecode verifier, disassembler and virtual machine",
+                            "Node-based visual scripting: a script can be written as code or built as a node graph, switching between the two views at any time",
                             "Type reflection system (TypeDB, Variant, PropertyInfo) powering the editor inspector and scene serialization",
                             "Editor: scenes, assets, gizmos, undo/redo, IPC between editor and runtime",
                             "Audio engine: mixer, buses, DSP, 3D sound; WASAPI (Windows) and CoreAudio (macOS) backends",
@@ -153,6 +173,24 @@ const portfolio = {
             {
                 title: "GAMES (STEAM)",
                 projects: [
+                    {
+                        name: "PersonaNet",
+                        tagline: "3D Tamagotchi-like horror game, Steam page is live",
+                        period: "2025 - present",
+                        status: "In development, coming soon to Steam (wishlists open)",
+                        role: "Developer, game designer and writer",
+                        stack: "Unity, C#, Steamworks SDK",
+                        description: "A game styled as a lost 2000s title: the player cares for the residents of a small village, until the familiar world starts to break down and turns into psychological horror.",
+                        details: [
+                            "Game design and story: design documents covering lore, characters and gameplay loops",
+                            "Six village residents, each with their own minigame and a distorted version in the second loop",
+                            "Retro console styling: launched through a PS2-like menu, glitch effects and broken scenes",
+                            "Steam store page preparation and publishing"
+                        ],
+                        links: [
+                            {text: "Steam page", url: "https://store.steampowered.com/app/4704890/PersonaNet/"}
+                        ]
+                    },
                     {
                         name: "Lobotomy",
                         tagline: "PC game published on Steam",

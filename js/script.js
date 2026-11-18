@@ -6,11 +6,11 @@ const translations = {
         sections: {
             about: {
                 title: "О СЕБЕ",
-                text: "Разработчик на C# и C++ с опытом создания коммерческих проектов: игр для PC/Steam на Unity и веб-приложений на .NET/Blazor. Разрабатывал полный цикл от прототипа до релиза, включая публикацию на платформах Steam и мобильных магазинах. Параллельно пишу собственный игровой движок на C++ и Vulkan: рендер, свой скриптовый язык с байткодом и VM, система рефлексии типов. Владею серверной логикой, чистой архитектурой и интеграцией баз данных. Работаю быстро, умею держать сроки и эффективно коммуницировать с заказчиками."
+                text: "C# / C++ разработчик с коммерческим опытом в вебе и геймдеве. Работаю в продакшене на ASP.NET Core и Blazor (B2B-приложение для расчёта коммерческих предложений), сам выпустил игры в Steam на Unity и сейчас готовлю к релизу PersonaNet. Параллельно пишу собственный игровой движок на C++ и Vulkan: рендер, редактор, свой скриптовый язык с байткодом и VM и визуальное программирование на нодах с переключением между кодом и графом. Довожу проекты от идеи до релиза, держу сроки и умею общаться с заказчиками напрямую."
             },
             career: {
                 title: "КАРЬЕРНЫЕ ЦЕЛИ",
-                text: "Ищу позицию разработчика, где смогу применить навыки в создании и оптимизации программного обеспечения, а также продолжить профессиональный рост в разработке игр, движков или веб-приложений с использованием C#, C++, Unity и ASP.NET Core."
+                text: "Ищу позицию C# / C++ разработчика в геймдеве, разработке движков и инструментов или в бэкенде на .NET. Хочу работать над продуктом, где важны производительность и архитектура, и приносить команде опыт полного цикла: от прототипа до релиза и поддержки."
             },
             experience: {
                 title: "ОПЫТ РАБОТЫ",
@@ -34,11 +34,12 @@ const translations = {
                         title: "Разработчик игрового движка (C++ / Vulkan)",
                         date: "2025 - настоящее время",
                         company: "AetherEngine - личный проект",
-                        description: "Собственный игровой движок на C++ с рендером на Vulkan: редактор, рантайм-плеер, свой скриптовый язык и система рефлексии.",
+                        description: "Собственный игровой движок на C++ с рендером на Vulkan: редактор, рантайм-плеер, свой скриптовый язык с визуальными нодами и система рефлексии.",
                         responsibilitiesTitle: "Что реализовано:",
                         responsibilities: [
                             "Рендер на Vulkan: настраиваемый пайплайн проходов, PBR-освещение, теневые карты, IBL и skybox, пост-эффекты",
                             "Свой скриптовый язык AetherScript: лексер, парсер, семантический анализ, компиляция в байткод и виртуальная машина",
+                            "Визуальное программирование на нодах: один и тот же скрипт можно редактировать кодом или графом нод и переключаться между ними",
                             "Система рефлексии и сериализации типов, редактор сцен, undo/redo, работа с ассетами",
                             "Аудиодвижок с миксером, шинами и DSP, бэкенды WASAPI и CoreAudio",
                             "Физика на базе Jolt Physics, кроссплатформенный слой окон и ввода (Win32 / Cocoa)",
@@ -51,7 +52,7 @@ const translations = {
                         title: "Unity/C# разработчик",
                         date: "07-2022 - настоящее время",
                         company: "Инди-разработка (Steam-проекты)",
-                        description: "Разработка собственных игр для PC и публикация на Steam.",
+                        description: "Разработка собственных игр для PC и публикация в Steam. Выпущены Lobotomy и 100 Dogs, в разработке PersonaNet (3D-хоррор в духе тамагочи, страница в Steam уже открыта).",
                         responsibilitiesTitle: "Обязанности:",
                         responsibilities: [
                             "Полный цикл разработки игр: от прототипа до релиза и пост-релизных апдейтов",
@@ -61,6 +62,7 @@ const translations = {
                         ],
                         linksTitle: "Ссылки:",
                         links: [
+                            {text: "PersonaNet", url: "https://store.steampowered.com/app/4704890/PersonaNet/"},
                             {text: "Lobotomy", url: "https://store.steampowered.com/app/3505700/Lobotomy/"},
                             {text: "100 Dogs", url: "https://store.steampowered.com/app/3048670/100_Dogs/"}
                         ]
@@ -94,7 +96,7 @@ const translations = {
                 title: "НАВЫКИ",
                 technical: {
                     subtitle: "Технические навыки",
-                    list: "• C# • .NET Core • ASP.NET • Blazor • Unity • C++ • Vulkan • CMake • SQL • MySQL • HTML • CSS • JavaScript • Git • GitHub"
+                    list: "• C# • .NET Core • ASP.NET • Blazor • Unity • Steamworks SDK • C++ • Vulkan • CMake • SQL • MySQL • HTML • CSS • JavaScript • Git • GitHub"
                 },
                 soft: {
                     subtitle: "Софт навыки",
@@ -117,11 +119,11 @@ const translations = {
         sections: {
             about: {
                 title: "ABOUT ME",
-                text: "C# and C++ developer with experience in commercial projects: PC/Steam games in Unity and .NET/Blazor web applications. Developed full cycle from prototype to release, including publishing on Steam and mobile stores. In parallel I am building my own game engine in C++ and Vulkan: renderer, custom scripting language with bytecode and a VM, type reflection system. Proficient in server logic, clean architecture and database integration. Work quickly, meet deadlines and communicate effectively with clients."
+                text: "C# / C++ developer with commercial experience in web and game development. I work in production on ASP.NET Core and Blazor (a B2B quotation pricing app), have shipped my own Unity games on Steam and am now preparing PersonaNet for release. In parallel I am building my own game engine in C++ and Vulkan: renderer, editor, a custom scripting language with bytecode and a VM, and node-based visual scripting with switching between code and graph. I take projects from idea to release, meet deadlines and communicate with clients directly."
             },
             career: {
                 title: "CAREER GOALS",
-                text: "Looking for a developer position where I can apply my skills in creating and optimizing software, as well as continue professional growth in game, engine or web application development using C#, C++, Unity and ASP.NET Core."
+                text: "Looking for a C# / C++ developer role in game development, engine and tools development, or .NET backend. I want to work on a product where performance and architecture matter, and bring full-cycle experience to the team: from prototype to release and support."
             },
             experience: {
                 title: "WORK EXPERIENCE",
@@ -145,11 +147,12 @@ const translations = {
                         title: "Game Engine Developer (C++ / Vulkan)",
                         date: "2025 - present",
                         company: "AetherEngine - personal project",
-                        description: "Own game engine written in C++ with a Vulkan renderer: editor, runtime player, custom scripting language and reflection system.",
+                        description: "Own game engine written in C++ with a Vulkan renderer: editor, runtime player, custom scripting language with visual nodes and reflection system.",
                         responsibilitiesTitle: "Implemented:",
                         responsibilities: [
                             "Vulkan renderer: configurable render pass pipeline, PBR lighting, shadow maps, IBL and skybox, post-processing effects",
                             "Custom scripting language AetherScript: lexer, parser, semantic analysis, bytecode compilation and virtual machine",
+                            "Node-based visual scripting: the same script can be edited as code or as a node graph, with switching between the two",
                             "Type reflection and serialization system, scene editor, undo/redo, asset pipeline",
                             "Audio engine with mixer, buses and DSP, WASAPI and CoreAudio backends",
                             "Physics based on Jolt Physics, cross-platform window and input layer (Win32 / Cocoa)",
@@ -162,7 +165,7 @@ const translations = {
                         title: "Unity/C# Developer",
                         date: "07-2022 - present",
                         company: "Indie Development (Steam Projects)",
-                        description: "Development of own games for PC and publishing on Steam.",
+                        description: "Development of my own PC games and publishing them on Steam. Shipped Lobotomy and 100 Dogs; PersonaNet (a 3D Tamagotchi-like horror game) is in development with its Steam page already live.",
                         responsibilitiesTitle: "Responsibilities:",
                         responsibilities: [
                             "Full game development cycle: from prototype to release and post-release updates",
@@ -172,6 +175,7 @@ const translations = {
                         ],
                         linksTitle: "Links:",
                         links: [
+                            {text: "PersonaNet", url: "https://store.steampowered.com/app/4704890/PersonaNet/"},
                             {text: "Lobotomy", url: "https://store.steampowered.com/app/3505700/Lobotomy/"},
                             {text: "100 Dogs", url: "https://store.steampowered.com/app/3048670/100_Dogs/"}
                         ]
@@ -205,7 +209,7 @@ const translations = {
                 title: "SKILLS",
                 technical: {
                     subtitle: "Technical Skills",
-                    list: "• C# • .NET Core • ASP.NET • Blazor • Unity • C++ • Vulkan • CMake • SQL • MySQL • HTML • CSS • JavaScript • Git • GitHub"
+                    list: "• C# • .NET Core • ASP.NET • Blazor • Unity • Steamworks SDK • C++ • Vulkan • CMake • SQL • MySQL • HTML • CSS • JavaScript • Git • GitHub"
                 },
                 soft: {
                     subtitle: "Soft Skills",
